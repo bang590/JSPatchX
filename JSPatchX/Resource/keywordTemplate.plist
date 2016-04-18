@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>if_stat</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>if(&lt;#cond#&gt;) { &lt;#code#&gt; }</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>if()</string>
+		<key>kJPCDplTxt</key>
+		<string>if()</string>
+	</dict>
+	<key>while_stat</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>while(&lt;#cond#&gt;) { &lt;#code#&gt; }</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>while(){}</string>
+		<key>kJPCDplTxt</key>
+		<string>while(){}</string>
+	</dict>
+
+	<key>require</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>require('&lt;#class#&gt;')</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>require(class)</string>
+		<key>kJPCDplTxt</key>
+		<string>require(class)</string>
+	</dict>
+	<key>defineClass</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>defineClass('&lt;#class#&gt;', [ &lt;#properties#&gt; ], { &lt;#methods#&gt; })</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>defineClass(class)</string>
+		<key>kJPCDplTxt</key>
+		<string>defineClass(class)</string>
+	</dict>
+	<key>defineJSClass</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>defineJSClass('&lt;#class#&gt;', { &lt;#methods#&gt; })</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>defineJSClass(class)</string>
+		<key>kJPCDplTxt</key>
+		<string>defineJSClass(class)</string>
+	</dict>
+	<key>include</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>include('&lt;#filePath#&gt;')</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>include(filePath)</string>
+		<key>kJPCDplTxt</key>
+		<string>include(filePath)</string>
+	</dict>
+	<key>resourcePath</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>resourcePath('&lt;#filePath#&gt;')</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>resourcePath(filePath)</string>
+		<key>kJPCDplTxt</key>
+		<string>resourcePath(filePath)</string>
+	</dict>
+	<key>console</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>console.log(&lt;#log#&gt;)</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>console.log(msg)</string>
+		<key>kJPCDplTxt</key>
+		<string>console.log(msg)</string>
+	</dict>
+	<key>global</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>global</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>global</string>
+		<key>kJPCDplTxt</key>
+		<string>global</string>
+	</dict>
+
+	<key>function</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>function(&lt;#params#&gt;) { &lt;#code#&gt; }</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>function(params){}</string>
+		<key>kJPCDplTxt</key>
+		<string>function(params){}</string>
+	</dict>
+	<key>forIn</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>for(var &lt;#item#&gt; in &lt;#items#&gt;) { &lt;#codes#&gt; }</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>forin</string>
+		<key>kJPCDplTxt</key>
+		<string>for..in</string>
+	</dict>
+	<key>for</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>for(var &lt;#i#&gt; = 0; &lt;#i#&gt; &lt; &lt;#max#&gt;; &lt;#i#&gt; ++) { &lt;#codes#&gt; }</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>for()</string>
+		<key>kJPCDplTxt</key>
+		<string>for()</string>
+	</dict>
+
+	<key>CGRect</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>{x: &lt;#x#&gt;, y: &lt;#y#&gt;, width: &lt;#width#&gt;, height: &lt;#height#&gt;}</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>CGRect{x:,y:,width:,height:}</string>
+		<key>kJPCDplTxt</key>
+		<string>CGRect{x:,y:,width:,height:}</string>
+	</dict>
+	<key>CGSize</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>{width: &lt;#width#&gt;, height: &lt;#height#&gt;}</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>CGSize{width:,height:}</string>
+		<key>kJPCDplTxt</key>
+		<string>CGSize{width:,height:}</string>
+	</dict>
+	<key>CGPoint</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>{x: &lt;#x#&gt;, y: &lt;#y#&gt;}</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>CGPoint{x:,y:}</string>
+		<key>kJPCDplTxt</key>
+		<string>CGPoint{x:,y:}</string>
+	</dict>
+	<key>NSRange</key>
+	<dict>
+		<key>kJPCTxt</key>
+		<string>{location: &lt;#location#&gt;, length: &lt;#length#&gt;}</string>
+		<key>kJPCDplType</key>
+		<string>Keyword</string>
+		<key>kJPCName</key>
+		<string>NSRange{location:,length:}</string>
+		<key>kJPCDplTxt</key>
+		<string>NSRange{location:,length:}</string>
+	</dict>
+</dict>
+</plist>
