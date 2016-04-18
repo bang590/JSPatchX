@@ -1,6 +1,6 @@
 #JSPatchX
 
-[(中文介绍)](https://github.com/bang590/JSPatchX/blob/master/README-CN.md)
+[中文介绍](https://github.com/bang590/JSPatchX/blob/master/README-CN.md)
 
 XCode plugin that provides autocompletion for [JSPatch](https://github.com/bang590/JSPatch). 
 
@@ -10,7 +10,7 @@ XCode plugin that provides autocompletion for [JSPatch](https://github.com/bang5
 
 ###Alcatraz
 
-coming soon...
+This plugin can be installed using [Alcatraz](http://alcatraz.io/). Search for `JSPatchX` in Alcatraz.
 
 ###Manually
 
@@ -23,4 +23,4 @@ Download the plugin: [JSPatchX.zip](https://raw.github.com/bang590/JSPatchX/mast
 
 ###About
 
-code by [@bang](https://github.com/bang590) & [@louis](https://github.com/gabailey)
+Code by [@bang](https://github.com/bang590) & [@louis](https://github.com/gabailey)

@@ -8,7 +8,7 @@
 
 ###Alcatraz
 
-coming soon...
+可以通过 [Alcatraz](http://alcatraz.io/) 安装，直接搜索 `JSPatchX`。
 
 ###手工安装
 
