@@ -36,6 +36,11 @@
     return self;
 }
 
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (NSArray *)keywordCompletionItemsWithFilePath:(NSString *)filePath
 {
     @synchronized(self) {
@@ -98,13 +103,15 @@
     NSMutableDictionary *fileCache = [[NSMutableDictionary alloc] init];
     
     NSString *folder = [_workspace currentProjectFolder];
-    NSArray *fileList = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:folder error:nil];
-    for (NSString *file in fileList) {
-        if ([file hasSuffix:@".js"]) {
-            NSString *filePath = [NSString stringWithFormat:@"%@/%@", folder, file];
-            NSString *content = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-            JPJSFile *file = [[JPJSFile alloc] initWithContent:content];
-            [fileCache setObject:file forKey:filePath];
+    if (folder.length) {
+        NSArray *fileList = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:folder error:nil];
+        for (NSString *file in fileList) {
+            if ([file hasSuffix:@".js"]) {
+                NSString *filePath = [NSString stringWithFormat:@"%@/%@", folder, file];
+                NSString *content = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+                JPJSFile *file = [[JPJSFile alloc] initWithContent:content];
+                [fileCache setObject:file forKey:filePath];
+            }
         }
     }
     return fileCache;

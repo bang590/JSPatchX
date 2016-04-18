@@ -56,7 +56,6 @@
 -(PBXProject *)_currentProject
 {
     NSArray *projects = [PBXProject openProjects];
-    
     PBXProject *currentProject;
     for (int i = 0; i < projects.count; ++i) {
         PBXProject *proj = projects[i];
@@ -70,8 +69,7 @@
 
 - (NSString *)currentProjectFolder
 {
-    PBXProject *proj = [self _currentProject];
-    return [proj.path stringByDeletingLastPathComponent];
+    return [self.representingFilePath.pathString stringByDeletingLastPathComponent];
 }
 
 - (NSArray *)defaultScanHeaderDirs
