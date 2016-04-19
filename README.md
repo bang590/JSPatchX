@@ -1,4 +1,4 @@
-#JSPatchX
+#JSPatchX [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 [中文介绍](https://github.com/bang590/JSPatchX/blob/master/README-CN.md)
 
@@ -23,7 +23,7 @@ Download the plugin: [JSPatchX.zip](https://raw.github.com/bang590/JSPatchX/mast
 
 ##License
 
-Check the [LICENSE] file to know more about license agreement.
+To know more about the [LICENSE](LICENSE) agreement.
 
 ##About
 
