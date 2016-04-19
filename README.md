@@ -21,6 +21,9 @@ Download the plugin: [JSPatchX.zip](https://raw.github.com/bang590/JSPatchX/mast
 1. The plugin will run while editing JS file in XCode, it take no effect when editing other types of file.
 2. Recommend to turn off the indentation of ":" : `XCode -> Preferences -> Text Editing -> indentation -> Automatic indent for -> turn off ":"`
 
+##License
+
+Check the [LICENSE] file to know more about license agreement.
 
 ##About
 
