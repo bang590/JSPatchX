@@ -1,4 +1,4 @@
-#JSPatchX
+#JSPatchX [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 [中文介绍](https://github.com/bang590/JSPatchX/blob/master/README-CN.md)
 
@@ -21,6 +21,9 @@ Download the plugin: [JSPatchX.zip](https://raw.github.com/bang590/JSPatchX/mast
 1. The plugin will run while editing JS file in XCode, it take no effect when editing other types of file.
 2. Recommend to turn off the indentation of ":" : `XCode -> Preferences -> Text Editing -> indentation -> Automatic indent for -> turn off ":"`
 
+##License
+
+To know more about the [LICENSE](LICENSE) agreement.
 
 ##About
 
