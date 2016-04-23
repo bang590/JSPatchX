@@ -136,17 +136,19 @@
 
 - (void)handleFileSaved:(NSNotification *)notification
 {
-    NSString *filePath = notification.object;
-    if (_jsFileCache) {
-        NSString *content = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-        JPJSFile *file = [[JPJSFile alloc] initWithContent:content];
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
         @synchronized(self) {
-            [_jsFileCache setObject:file forKey:filePath];
+            NSString *filePath = notification.object;
+            if (_jsFileCache) {
+                NSString *content = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+                JPJSFile *file = [[JPJSFile alloc] initWithContent:content];
+                    [_jsFileCache setObject:file forKey:filePath];
+            }
+            if (_allCompletionItemsCache) {
+                _allCompletionItemsCache = nil;
+            }
         }
-    }
-    if (_allCompletionItemsCache) {
-        _allCompletionItemsCache = nil;
-    }
+    });
 }
 
 - (void)_addItemsFrom:(NSArray *)fromItems to:(NSMutableArray *)toItems
