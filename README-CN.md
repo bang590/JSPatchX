@@ -10,9 +10,13 @@
 
 可以通过 [Alcatraz](http://alcatraz.io/) 安装，直接搜索 `JSPatchX`。
 
+XCode8+ 用户需要去掉 xcode 签名才可以使用，详见 http://www.jianshu.com/p/dc2fc2a680fc 。
+
 ###手工安装
 
 下载插件：[JSPatchX.zip](https://raw.github.com/bang590/JSPatchX/master/Resource/JSPatchX.zip)，解压后把 `JSPatchX.xcplugin` 文件放到 /Users/用户名/Library/Application Support/Developer/Shared/Xcode/Plug-ins 目录下（没有这个目录就创建）。重启 XCode 即可。
+
+XCode8 以上用户请使用 Alcatraz 安装。
 
 ##使用
 
