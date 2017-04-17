@@ -1,4 +1,4 @@
-#JSPatchX [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+# JSPatchX [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 [中文介绍](https://github.com/bang590/JSPatchX/blob/master/README-CN.md)
 
@@ -6,25 +6,25 @@ XCode plugin that provides autocompletion for [JSPatch](https://github.com/bang5
 
 ![Screenshot](https://raw.github.com/bang590/JSPatchX/master/Resource/Screenshot.gif)
 
-##Installation
+## Installation
 
-###Alcatraz
+### Alcatraz
 
 This plugin can be installed using [Alcatraz](http://alcatraz.io/). Search for `JSPatchX` in Alcatraz.
 
-###Manually
+### Manually
 
 Download the plugin: [JSPatchX.zip](https://raw.github.com/bang590/JSPatchX/master/Resource/JSPatchX.zip), unzip it and put `JSPatchX.xcplugin` to `/Users/{YourUserName}/Library/Application Support/Developer/Shared/Xcode/Plug-ins` (create it if not exists), restart XCode.
 
-##Usage
+## Usage
 
 1. The plugin will run while editing JS file in XCode, it take no effect when editing other types of file.
 2. Recommend to turn off the indentation of ":" : `XCode -> Preferences -> Text Editing -> indentation -> Automatic indent for -> turn off ":"`
 
-##License
+## License
 
 To know more about the [LICENSE](LICENSE) agreement.
 
-##About
+## About
 
 Code by [@bang](https://github.com/bang590) & [@louis](https://github.com/gabailey)
